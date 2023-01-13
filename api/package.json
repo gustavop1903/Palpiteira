@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {},
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "author": {
+    "name": "Gustavo Pereira",
+    "email": "gustavogp1903@hotmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/router": "^12.0.0",
+    "@prisma/client": "^4.8.0",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.7.1"
+  }
+}
